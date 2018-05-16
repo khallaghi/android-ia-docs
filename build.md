@@ -33,3 +33,8 @@ The source code released with required binaries to build under `prebuilts` direc
 ``` PATH=/path/to/binary/directory:$PATH ```  
 or manully add the path to PATH variable in `/etc/environment` and after that type `source /etc/environment` 
 
+
+# Missing Requirement
+There is one requirment package that was not in mentioned in official documents and it breaks the build process simply install it on ubuntu machine by:  
+```apt install genisoimage```
+
