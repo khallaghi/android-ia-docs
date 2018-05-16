@@ -2,6 +2,8 @@
 To build android-ia source you could use this link below:  
 https://github.com/android-ia/manifest/wiki  
 but you may face with some issues so this document is here to help.
+All the experiments are on Ubuntu 14.04 x64 machine with 16GB of RAM and 6 core CPU.  
+The machine was placed in Netherland/Amesterdam under Digital Ocean network.  
 
 ## Java Development Kit
 You have to use OpenJDK 8 to build source successfully if you use other versions or use Oracle Java Development Kit you get some error about it.
