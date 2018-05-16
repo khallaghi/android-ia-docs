@@ -23,7 +23,7 @@ ifdef CONFIG_CC_OPTIMIZE_FOR_SIZE
           $(warning Disabling CONFIG_CC_OPTIMIZE_FOR_SIZE.  Your compiler does not have -mfentry so you cannot optimize for size with CONFIG_FUNCTION_GRAPH_TRACER.)
 endif
 ```
-you can change it in right way but I can not so I simply comment it to be ignore in build process because this code almost generate a warning.
+you can change it in right way or simply comment it to be ignored in build process because this code almost generates a warning.
 
 ## Missing Binaries
 You may face with some errors like this:
