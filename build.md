@@ -38,6 +38,6 @@ Be aware that you may find two path for the desired binary file based on your op
 
 
 ## Missing Requirement
-There is one requirment package that was not in mentioned in official documents and it breaks the build process simply install it on ubuntu machine by:  
+There is one required package that was not in mentioned in official documents and it breaks the build process simply install it on ubuntu machine by:  
 ```apt install genisoimage```
 
