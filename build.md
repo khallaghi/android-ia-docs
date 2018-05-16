@@ -1,6 +1,6 @@
 # Building android-ia source code
-To build android-ia source you could use this link below:
-https://github.com/android-ia/manifest/wiki
+To build android-ia source you could use this link below:  
+https://github.com/android-ia/manifest/wiki  
 but you may face with some issues so this document is here to help.
 
 ## Java Development Kit
