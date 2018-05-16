@@ -11,8 +11,8 @@ You have to use OpenJDK 8 to build source successfully if you use other versions
 ## Broken Makefile
 Sometimes Makefiles have some issues like tab and spaces compilimation and they cuase to stop the build process.
 In this cases feel free to look over the broken Makefile and sometimes you can change it!
-Beleive me or not Makefile isn't rocket science and you could change it in some cases.
-in this source a specific Makefile in this path:  
+Beleive me or not Makefile isn't rocket science and you could change it in some cases.  
+In this source a specific Makefile in this path:  
 ```kernel/android_ia/arch/x86/Makefile```
 has tab and spaces issues in line no 178, if you take a look over it you will find this code:    
 ```
