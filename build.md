@@ -3,10 +3,10 @@ To build android-ia source you could use this link below:
 https://github.com/android-ia/manifest/wiki
 but you may face with some issues so this document is here to help.
 
-# Java Development Kit
+## Java Development Kit
 You have to use OpenJDK 8 to build source successfully if you use other versions or use Oracle Java Development Kit you get some error about it.
 
-# Broken Makefile
+## Broken Makefile
 Sometimes Makefiles have some issues like tab and spaces compilimation and they cuase to stop the build process.
 In this cases feel free to look over the broken Makefile and sometimes you can change it!
 Beleive me or not Makefile isn't rocket science and you could change it in some cases.
@@ -23,7 +23,7 @@ endif
 ```
 you can change it in right way but I can not so I simply comment it to be ignore in build process because this code almost generate a warning.
 
-# Missing Binaries
+## Missing Binaries
 You may face with some errors like this:
 ``` some-sort-of-binary-file command not found```
 first you have to be sure that all the requirments are installed on your machine for more information see below link:  
@@ -34,7 +34,7 @@ The source code released with required binaries to build under `prebuilts` direc
 or manully add the path to PATH variable in `/etc/environment` and after that type `source /etc/environment` 
 
 
-# Missing Requirement
+## Missing Requirement
 There is one requirment package that did not in mention in official documents and it breaks the build process simply install it on ubuntu machine by:  
 ```apt install genisoimage```
 
