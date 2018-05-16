@@ -34,10 +34,13 @@ Althogh you installed all the requirments packages you get that error again.
 The source code released with required binaries to build under `prebuilts` directory so in this cases use `find ./prebuilts | grep some-sort-of-binary-file` to search among prebuilt binary files and after that add the path to `PATH` environment variable simply by typing:  
 ``` PATH=/path/to/binary/directory:$PATH ```  
 or manully add the path to PATH variable in `/etc/environment` and after that type `source /etc/environment`  
-Be aware that you may find two path for the desired binary file based on your operating use the path with `\linux\` infix string if you use Linux disros or use path with `\darwin\` infix in case of macOs.  
+Be aware that you may find two path for the desired binary file based on your operating use the path with `/linux/` infix string if you use Linux disros or use path with `/darwin/` infix in case of macOs.  
 
 
-## Missing Requirement
-There is one required package that was not in mentioned in official documents and it breaks the build process simply install it on ubuntu machine by:  
-```apt install genisoimage```
+## Missing Requirements
+There is one required package that was not in mentioned in official documents and it breaks the build process simply install it on Ubuntu machine by: 
+```
+apt install genisoimage
+apt install ncurses
+```
 
